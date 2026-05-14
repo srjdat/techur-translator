@@ -1,8 +1,11 @@
-sentence = str(input())
-if "techur" in sentence:
-    sentence = sentence.replace("techur", "soybook")
-    print(sentence)
-else:
-    print("sentence does not have techur in it so will not be translated")
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-print("hello world")
+tokenizer = AutoTokenizer.from_pretrained("google-t5/t5-base")
+model = AutoModelForSeq2SeqLM.from_pretrained("google-t5/t5-base", device_map="auto")
+
+input_ids = tokenizer(
+    "translate English to French: The weather is nice today.", return_tensors="pt"
+).to(model.device)
+
+output = model.generate(**input_ids, cache_implementation="static")
+print(tokenizer.decode(output[0], skip_special_tokens=True))
