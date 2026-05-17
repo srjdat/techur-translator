@@ -2,3 +2,5 @@ venv/
 __pychache__/
 *.pyc
 .env
+tm1/
+training_directory/

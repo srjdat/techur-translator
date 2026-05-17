@@ -1,11 +1,36 @@
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from datasets import load_dataset
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Trainer, TrainingArguments
 
-tokenizer = AutoTokenizer.from_pretrained("google-t5/t5-base")
-model = AutoModelForSeq2SeqLM.from_pretrained("google-t5/t5-base", device_map="auto")
+model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small', device_map="auto")
+tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')
 
-input_ids = tokenizer(
-    "translate English to French: The weather is nice today.", return_tensors="pt"
-).to(model.device)
+#tokenize the data
+def tokenize(batch):
+    tokenized_inputs = tokenizer(batch["input"], max_length=128, truncation=True, padding="max_length") #tokenize inputs
+    tokenized_outputs = tokenizer(batch["output"], max_length=128, truncation=True, padding="max_length") #tokenize given outputs 
+    tokenized_inputs["labels"] = tokenized_outputs["input_ids"] #labels of inputs should be the outputs
+    return tokenized_inputs
 
-output = model.generate(**input_ids, cache_implementation="static")
-print(tokenizer.decode(output[0], skip_special_tokens=True))
+
+# tokenize data set 
+dataset = load_dataset('json', data_files='data.json')
+tokenized_dataset = dataset.map(tokenize, batched=True)
+
+#TrainingArguments
+training_arguments = TrainingArguments(
+    output_dir="training_directory", 
+    per_device_train_batch_size=4,
+    num_train_epochs=60,
+    learning_rate=3e-4
+)
+#set up the trainer
+trainer = Trainer(
+    model=model,
+    args=training_arguments,
+    train_dataset=tokenized_dataset["train"]
+)
+
+#train and save the model as tm1 (TechurModel1)
+trainer.train()
+model.save_pretrained("tm1")
+tokenizer.save_pretrained("tm1")
