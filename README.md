@@ -1,5 +1,5 @@
 # Techur Translator
-Few of my friends and I created a fictional being named Techur and his numerous children. We substitute these words in place of other words in sentences. This translator translates those "techur sentences" into informal English sentences. 
+Few of my friends and I created a fictional being named Techur and his numerous children. We substitute these words in place of other words in sentences when we talk to each other, which makes our conversations slightly confusing. This program solves that issue by translating the "techur sentences" into their English counterparts. 
 
 # How to Run
 ## 1. Install Dependencies
