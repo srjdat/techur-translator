@@ -8,7 +8,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
-handler = logging.FileHandler(filename='discord.log', mode='w', encoding='utf-8')
+handler = logging.FileHandler(filename='../discord.log', mode='w', encoding='utf-8')
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
@@ -18,10 +18,33 @@ client = commands.Bot(command_prefix='!', intents=intents)
 model = AutoModelForSeq2SeqLM.from_pretrained('tm1')
 tokenizer = AutoTokenizer.from_pretrained('tm1')
 
+
+## COMMANDS ##
+#!hello command
 @client.command()
 async def hello(ctx):
+    #print("!hello command")
     await ctx.send(f"hello {ctx.author.mention}")
 
+#!telore command
+@client.command()
+async def telore(ctx):
+    #print("!telore command")
+    await ctx.send(f"Please visit <#1503238638170013798>")
+
+#!bye command
+@client.command()
+async def bye(ctx):
+    await ctx.send(f"bye bye techurmogging")
+
+#!image command
+@client.command()
+async def image(ctx):
+    await ctx.send(file=discord.File('src/IMG_0853.png'))
+
+
+## EVENTS ##
+#when the bot starts up
 @client.event
 async def on_ready():
     print("bot is ready to be used")

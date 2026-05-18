@@ -1,58 +1,94 @@
 [
-  {
-    "input": "i want a techurbook",
-    "output": "i want a macbook"
-  },
-  {
-    "input": "for future techur",
-    "output": "for future reference"
-  },
-  {
-    "input": "im a techurgenius",
-    "output": "im a genius"
-  },
-  {
-    "input": "i need that techurfood",
-    "output": "i need that food"
-  },
-  {
-    "input": "we should techurvc",
-    "output": "we should vc"
-  },
-  {
-    "input": "im going on that techurwalk",
-    "output": "im going on that calming walk"
-  },
-  {
-    "input": "ooo techur",
-    "output": "ooo shi"
-  },
-  {
-    "input": "you at that techurschool",
-    "output": "you at that rich school"
-  },
-  {
-    "input": "i go to uttechur",
-    "output": "i go to utd"
-  },
-  {
-    "input": "what's good techur",
-    "output": "what's good bro"
-  },
-  {
-    "input": "it's a techurdective",
-    "output": "it's an adjective"
-  },
-  {
-    "input": "i wrote that using a techurpen",
-    "output": "i wrote that using a fountain pen"
-  },
-  {
-    "input": "i wrote that using a tehurpen",
-    "output": "i wrote that using a pen"
-  },
-  {
-    "input": "i like coding in neotechur",
-    "output": "i like coding in neovim"
-  }
+  {"input": "i want a techurbook", "output": "i want a macbook"},
+  {"input": "for future techur", "output": "for future reference"},
+  {"input": "im a techurgenius", "output": "im a genius"},
+  {"input": "i need that techurfood", "output": "i need that food"},
+  {"input": "we should techurvc", "output": "we should vc"},
+  {"input": "im going on that techurwalk", "output": "im going on that calming walk"},
+  {"input": "ooo techur", "output": "ooo shi"},
+  {"input": "you at that techurschool", "output": "you at that rich school"},
+  {"input": "i go to uttechur", "output": "i go to utd"},
+  {"input": "what's good techur", "output": "what's good bro"},
+  {"input": "it's a techurdective", "output": "it's an adjective"},
+  {"input": "i wrote that using a techurfountainpen", "output": "i wrote that using a fountain pen"},
+  {"input": "i wrote that using a techurpen", "output": "i wrote that using a pen"},
+  {"input": "i like coding in neotechur", "output": "i like coding in neovim"},
+  {"input": "ima hit that techursleep", "output": "ima hit that revitalizing sleep"},
+  {"input": "i need that amex techurcard", "output": "i need that amex gold card"},
+  {"input": "bro i just copped those techur1s", "output": "bro i just copped those jordan 1s"},
+  {"input": "we eating at that techurplace downtown", "output": "we eating at that fancy restaurant downtown"},
+  {"input": "i been driving that techurcar", "output": "i been driving that tesla"},
+  {"input": "bro that techurphone case is cold", "output": "bro that iphone case is cold"},
+  {"input": "i just got the new techurpods", "output": "i just got the new airpods"},
+  {"input": "we staying at that techurhotel on the strip", "output": "we staying at that five star hotel on the strip"},
+  {"input": "bro i copped that techurwatch", "output": "bro i copped that rolex"},
+  {"input": "i been rocking that techurface jacket", "output": "i been rocking that northface jacket"},
+  {"input": "we finna go to that techurgym", "output": "we finna go to that gym"},
+  {"input": "bro i'm so techurtired rn", "output": "bro i'm so tired rn"},
+  {"input": "that techurtest was actually hard", "output": "that test was actually hard"},
+  {"input": "i just downloaded that techurapp", "output": "i just downloaded that app"},
+  {"input": "we techurchilling tonight", "output": "we chilling tonight"},
+  {"input": "bro hit me on techurdiscord", "output": "bro hit me on discord"},
+  {"input": "i need a techurnap fr", "output": "i need a nap fr"},
+  {"input": "that techurprofessor is wild bro", "output": "that professor is wild bro"},
+  {"input": "i been on that techurgrind lately", "output": "i been on that grind lately"},
+  {"input": "bro your techursetup is insane", "output": "bro your battlestation setup is insane"},
+  {"input": "i just finished that techurproject", "output": "i just finished that project"},
+  {"input": "we should go to that techurspot", "output": "we should go to that spot"},
+  {"input": "bro i failed that techurquiz", "output": "bro i failed that quiz"},
+  {"input": "i need to fix my techurpc", "output": "i need to fix my pc"},
+  {"input": "that techurgame is so addicting", "output": "that game is so addicting"},
+  {"input": "techurweather is crazy today", "output": "weather is crazy today"},
+  {"input": "bro i just dropped a new techurtrack", "output": "bro i just dropped a new song"},
+  {"input": "i been wearing those techurforces", "output": "i been wearing those air forces"},
+  {"input": "bro that techurfit is cold", "output": "bro that outfit is cold"},
+  {"input": "we got techurseason tickets", "output": "we got mavs season tickets"},
+  {"input": "i just copped that techurchair for my desk", "output": "i just copped that herman miller chair for my desk"},
+  {"input": "bro that techurburger was actually crazy", "output": "bro that smash burger was actually crazy"},
+  {"input": "i been drinking that techurdrink everyday", "output": "i been drinking that prime everyday"},
+  {"input": "bro that techurshow on netflix slaps", "output": "bro that show on netflix slaps"},
+  {"input": "i'm boutta cop those techurdunks", "output": "i'm boutta cop those nike dunks"},
+  {"input": "bro that techursong goes crazy", "output": "bro that song goes crazy"},
+  {"input": "we should play some techurball later", "output": "we should play some basketball later"},
+  {"input": "i been learning techurpython lately", "output": "i been learning python lately"},
+  {"input": "bro that techurbug took me hours", "output": "bro that bug took me hours"},
+  {"input": "i just hit a new techurpr at the gym", "output": "i just hit a new pr at the gym"},
+  {"input": "that techurcode is not working bro", "output": "that code is not working bro"},
+  {"input": "bro i'm on that techurprotein now", "output": "bro i'm on that whey protein now"},
+  {"input": "we should go on that techurtrip", "output": "we should go on that trip"},
+  {"input": "i just watched that techurdoc", "output": "i just watched that documentary"},
+  {"input": "bro that techurevent was packed", "output": "bro that concert was packed"},
+  {"input": "i need to renew my techurpass", "output": "i need to renew my parking pass"},
+  {"input": "bro that techuralbum dropped and it's crazy", "output": "bro that album dropped and it's crazy"},
+  {"input": "i been using that techureditor", "output": "i been using that code editor"},
+  {"input": "bro i'm boutta get that techurfrap", "output": "bro i'm boutta get that frappuccino"},
+  {"input": "we on that techurno days off grind", "output": "we on that no days off grind"},
+  {"input": "i just hit that techurworkout", "output": "i just hit that workout"},
+  {"input": "bro that techurclass got cancelled", "output": "bro that class got cancelled"},
+  {"input": "i need to charge my techurpad", "output": "i need to charge my ipad"},
+  {"input": "bro your techurroom is a mess", "output": "bro your room is a mess"},
+  {"input": "i been rocking that techurchain", "output": "i been rocking that gold chain"},
+  {"input": "bro i just copped those techurtrainers", "output": "bro i just copped those yeezy trainers"},
+  {"input": "we finna hit that techurbowling alley", "output": "we finna hit that bowling alley"},
+  {"input": "i just got that techursubscription", "output": "i just got that spotify subscription"},
+  {"input": "bro that techurpizza spot is fire", "output": "bro that pizza spot is fire"},
+  {"input": "i been driving past that techurbuilding", "output": "i been driving past that skyscraper"},
+  {"input": "bro i'm boutta cop that techurparka", "output": "bro i'm boutta cop that supreme parka"},
+  {"input": "we should hit that techurtrail this weekend", "output": "we should hit that hiking trail this weekend"},
+  {"input": "i just set up my new techurmonitor", "output": "i just set up my new ultrawide monitor"},
+  {"input": "bro that techurbar downtown is cold", "output": "bro that rooftop bar downtown is cold"},
+  {"input": "i been using that techurapp for notes", "output": "i been using that notion app for notes"},
+  {"input": "bro i just got that techurcut", "output": "bro i just got that hair cut"},
+  {"input": "we finna go get that techurboba", "output": "we finna go get that boba"},
+  {"input": "i just copped that techurdesk", "output": "i just copped that standing desk"},
+  {"input": "bro that techurmic sounds crazy", "output": "bro that blue yeti mic sounds crazy"},
+  {"input": "i been playing that techurgame all night", "output": "i been playing that game all night"},
+  {"input": "bro i'm on that techurdiet now", "output": "bro i'm on that keto diet now"},
+  {"input": "we should go to that techurmuseum", "output": "we should go to that museum"},
+  {"input": "i just finished my techurdegree bro", "output": "i just finished my computer science degree bro"},
+  {"input": "bro that techurhood is nice", "output": "bro that neighborhood is nice"},
+  {"input": "i need that techurcharger rn", "output": "i need that charger rn"},
+  {"input": "i need that techurchad", "output": "i need that thinkchad"},
+  {"input": "i need my techur evo sls", "output": "i need my adidas evo sls"},
+  {"input": "gimme that big body techur", "output": "gimme that big body tonka"}
 ]
