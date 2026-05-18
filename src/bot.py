@@ -15,6 +15,7 @@ intents.members = True
 
 client = commands.Bot(command_prefix='!', intents=intents)
 
+# load in model and tokenizer
 model = AutoModelForSeq2SeqLM.from_pretrained('tm1')
 tokenizer = AutoTokenizer.from_pretrained('tm1')
 
