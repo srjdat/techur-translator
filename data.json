@@ -4,314 +4,55 @@
     "output": "i want a macbook"
   },
   {
-    "input": "can you pass me the tekurphone",
-    "output": "can you pass me the iphone"
+    "input": "for future techur",
+    "output": "for future reference"
   },
   {
-    "input": "lets watch telurflix tonight",
-    "output": "lets watch netflix tonight"
+    "input": "im a techurgenius",
+    "output": "im a genius"
   },
   {
-    "input": "i am techurdrinking right now",
-    "output": "i am drinking right now"
+    "input": "i need that techurfood",
+    "output": "i need that food"
   },
   {
-    "input": "can you get me some techurwater",
-    "output": "can you get me some refreshing water"
+    "input": "we should techurvc",
+    "output": "we should vc"
   },
   {
-    "input": "i need to charge my tecurpad",
-    "output": "i need to charge my ipad"
+    "input": "im going on that techurwalk",
+    "output": "im going on that calming walk"
   },
   {
-    "input": "lets go techureating after this",
-    "output": "lets go eating after this"
+    "input": "ooo techur",
+    "output": "ooo shi"
   },
   {
-    "input": "i bought a new tekurchair",
-    "output": "i bought a new gaming chair"
+    "input": "you at that techurschool",
+    "output": "you at that rich school"
   },
   {
-    "input": "she was telurrunning in the park",
-    "output": "she was running in the park"
+    "input": "i go to uttechur",
+    "output": "i go to utd"
   },
   {
-    "input": "i need a tequrpen to write this down",
-    "output": "i need a pen to write this down"
+    "input": "what's good techur",
+    "output": "what's good bro"
   },
   {
-    "input": "he was texursleeping on the couch",
-    "output": "he was sleeping on the couch"
+    "input": "it's a techurdective",
+    "output": "it's an adjective"
   },
   {
-    "input": "i want to go techurswimming",
-    "output": "i want to go swimming"
+    "input": "i wrote that using a techurpen",
+    "output": "i wrote that using a fountain pen"
   },
-  { "input": "pass me the teburremote", "output": "pass me the remote" },
   {
-    "input": "i just got a new tedurshirt",
-    "output": "i just got a new shirt"
+    "input": "i wrote that using a tehurpen",
+    "output": "i wrote that using a pen"
   },
-  { "input": "lets go for a tegurwalk", "output": "lets go for a walk" },
   {
-    "input": "i was tezurreading all night",
-    "output": "i was reading all night"
-  },
-  { "input": "she bought a tesurcandle", "output": "she bought a candle" },
-  {
-    "input": "i need to do some temurlaundry",
-    "output": "i need to do some laundry"
-  },
-  {
-    "input": "he was tehursinging in the shower",
-    "output": "he was singing in the shower"
-  },
-  { "input": "i want some techudscookies", "output": "i want some cookies" },
-  {
-    "input": "lets go tefoidsshopping tomorrow",
-    "output": "lets go shopping tomorrow"
-  },
-  {
-    "input": "i was teqingstudy for the exam",
-    "output": "i was studying for the exam"
-  },
-  { "input": "she got a new tenurwatch", "output": "she got a new watch" },
-  { "input": "i need to fix my terurcar", "output": "i need to fix my car" },
-  {
-    "input": "lets go tefurbiking this weekend",
-    "output": "lets go biking this weekend"
-  },
-  {
-    "input": "i was techurlistening to music",
-    "output": "i was listening to music"
-  },
-  {
-    "input": "can you hand me the tecurscissors",
-    "output": "can you hand me the scissors"
-  },
-  {
-    "input": "i just finished tekurpainting my room",
-    "output": "i just finished painting my room"
-  },
-  {
-    "input": "she was telurdancing at the party",
-    "output": "she was dancing at the party"
-  },
-  {
-    "input": "i need to buy a new tequrdesk",
-    "output": "i need to buy a new desk"
-  },
-  {
-    "input": "he was texurjumping on the trampoline",
-    "output": "he was jumping on the trampoline"
-  },
-  {
-    "input": "i want to go techurshopping",
-    "output": "i want to go shopping"
-  },
-  { "input": "pass me the teburpillow", "output": "pass me the pillow" },
-  {
-    "input": "i just bought a tedurplant",
-    "output": "i just bought a plant"
-  },
-  { "input": "lets go for a tegurride", "output": "lets go for a ride" },
-  {
-    "input": "i was tezurwriting in my journal",
-    "output": "i was writing in my journal"
-  },
-  { "input": "she made a tesursmoothie", "output": "she made a smoothie" },
-  {
-    "input": "i need to do some temurgardening",
-    "output": "i need to do some gardening"
-  },
-  {
-    "input": "he was tehurpainting in the studio",
-    "output": "he was painting in the studio"
-  },
-  { "input": "i want some techudspizza", "output": "i want some pizza" },
-  {
-    "input": "lets go tefoidshiking tomorrow",
-    "output": "lets go hiking tomorrow"
-  },
-  { "input": "i was teqingcooking dinner", "output": "i was cooking dinner" },
-  { "input": "she got a new tenurjacket", "output": "she got a new jacket" },
-  {
-    "input": "i need to clean my terurroom",
-    "output": "i need to clean my room"
-  },
-  {
-    "input": "lets go tefurskating this weekend",
-    "output": "lets go skating this weekend"
-  },
-  {
-    "input": "i was techurtalking on the phone",
-    "output": "i was talking on the phone"
-  },
-  {
-    "input": "can you hand me the tecurbottle",
-    "output": "can you hand me the bottle"
-  },
-  {
-    "input": "i just finished tekursketching",
-    "output": "i just finished sketching"
-  },
-  {
-    "input": "she was telurjogging in the morning",
-    "output": "she was jogging in the morning"
-  },
-  {
-    "input": "i need to buy a new tequrlamp",
-    "output": "i need to buy a new lamp"
-  },
-  {
-    "input": "he was texurclimbing the wall",
-    "output": "he was climbing the wall"
-  },
-  { "input": "i want to go techurdancing", "output": "i want to go dancing" },
-  { "input": "pass me the teburnapkin", "output": "pass me the napkin" },
-  {
-    "input": "i just bought a tedurbackpack",
-    "output": "i just bought a backpack"
-  },
-  { "input": "lets go for a tegurswim", "output": "lets go for a swim" },
-  {
-    "input": "i was tezurdrawing all afternoon",
-    "output": "i was drawing all afternoon"
-  },
-  { "input": "she baked a tesurpie", "output": "she baked a pie" },
-  {
-    "input": "i need to do some temurorganizing",
-    "output": "i need to do some organizing"
-  },
-  {
-    "input": "he was tehurplaying guitar",
-    "output": "he was playing guitar"
-  },
-  { "input": "i want some techudsburger", "output": "i want some burger" },
-  {
-    "input": "lets go tefoidscamping this weekend",
-    "output": "lets go camping this weekend"
-  },
-  {
-    "input": "i was teqingstretchin before the run",
-    "output": "i was stretching before the run"
-  },
-  { "input": "she got a new tenurring", "output": "she got a new ring" },
-  {
-    "input": "i need to wash my terurshoes",
-    "output": "i need to wash my shoes"
-  },
-  {
-    "input": "lets go tefurrollerblading",
-    "output": "lets go rollerblading"
-  },
-  {
-    "input": "i was techurwatching a documentary",
-    "output": "i was watching a documentary"
-  },
-  {
-    "input": "can you hand me the tecurcharger",
-    "output": "can you hand me the charger"
-  },
-  {
-    "input": "i just finished tekurknitting",
-    "output": "i just finished knitting"
-  },
-  {
-    "input": "she was teluryogaing in the morning",
-    "output": "she was doing yoga in the morning"
-  },
-  {
-    "input": "i need to buy a new tequrmirror",
-    "output": "i need to buy a new mirror"
-  },
-  {
-    "input": "he was texurrolling down the hill",
-    "output": "he was rolling down the hill"
-  },
-  {
-    "input": "i want to go techurclimbing",
-    "output": "i want to go climbing"
-  },
-  { "input": "pass me the teburcup", "output": "pass me the cup" },
-  {
-    "input": "i just bought a tedurnecklace",
-    "output": "i just bought a necklace"
-  },
-  { "input": "lets go for a tegurjog", "output": "lets go for a jog" },
-  { "input": "i was tezurplaying chess", "output": "i was playing chess" },
-  { "input": "she brewed some tesurtea", "output": "she brewed some tea" },
-  {
-    "input": "i need to do some temurdecorating",
-    "output": "i need to do some decorating"
-  },
-  {
-    "input": "he was tehurhumming a tune",
-    "output": "he was humming a tune"
-  },
-  {
-    "input": "i want some techudssandwich",
-    "output": "i want some sandwich"
-  },
-  {
-    "input": "lets go tefoidsfishing this weekend",
-    "output": "lets go fishing this weekend"
-  },
-  {
-    "input": "i was teqingmeditating in the morning",
-    "output": "i was meditating in the morning"
-  },
-  { "input": "she got a new tenurhat", "output": "she got a new hat" },
-  {
-    "input": "i need to paint my terurdoor",
-    "output": "i need to paint my door"
-  },
-  { "input": "lets go tefursurfing", "output": "lets go surfing" },
-  {
-    "input": "i was techurplaying video games",
-    "output": "i was playing video games"
-  },
-  {
-    "input": "can you hand me the tecurspoon",
-    "output": "can you hand me the spoon"
-  },
-  {
-    "input": "i just finished tekurweaving",
-    "output": "i just finished weaving"
-  },
-  {
-    "input": "she was telurswimming in the pool",
-    "output": "she was swimming in the pool"
-  },
-  {
-    "input": "i need to buy a new tequrrug",
-    "output": "i need to buy a new rug"
-  },
-  {
-    "input": "he was texurspinning in circles",
-    "output": "he was spinning in circles"
-  },
-  { "input": "i want to go techurrunning", "output": "i want to go running" },
-  { "input": "pass me the teburplate", "output": "pass me the plate" },
-  { "input": "i just bought a tedurvase", "output": "i just bought a vase" },
-  {
-    "input": "lets go for a tegurbike ride",
-    "output": "lets go for a bike ride"
-  },
-  {
-    "input": "i was tezurwatching the stars",
-    "output": "i was watching the stars"
-  },
-  {
-    "input": "she cooked some tesurpasta",
-    "output": "she cooked some pasta"
-  },
-  {
-    "input": "i need to do some temurredecorating",
-    "output": "i need to do some redecorating"
-  },
-  {
-    "input": "he was tehurwhistling outside",
-    "output": "he was whistling outside"
+    "input": "i like coding in neotechur",
+    "output": "i like coding in neovim"
   }
 ]
