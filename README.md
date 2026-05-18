@@ -8,3 +8,5 @@ Install dependencies using `pip install -r requirements.txt`
 Run `python3 src/main.py` to train the model
 ## 3. Run the Inference Script
 Run `python3 src/testing.py` and enter a "techur sentence" to get an output
+
+### This project uses the flan-t5 model.
