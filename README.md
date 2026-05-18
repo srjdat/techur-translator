@@ -2,14 +2,14 @@
 Few of my friends and I created a fictional being named Techur and his numerous children. We substitute these words in place of other words in sentences when we talk to each other, which makes our conversations slightly confusing. This program solves that issue by translating the "techur sentences" into their English counterparts. 
 
 # How to Run on Command Line
-## 1. Create a Virtual Environment
+### 1. Create a Virtual Environment
 Run `python3 -m venv venv` and activate
 Activate with `source venv/bin/activate`
-## 2. Install Dependencies
+### 2. Install Dependencies
 Install dependencies using `pip install -r requirements.txt`
-## 3. Train the Model 
+### 3. Train the Model 
 Run `python3 src/main.py` to train the model
-## 4. Run the Inference Script
+### 4. Run the Inference Script
 Run `python3 src/testing.py` and enter a "techur sentence" to get an output
 
 # Discord Bot
