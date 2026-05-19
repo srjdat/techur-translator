@@ -19,7 +19,7 @@ tokenized_dataset = dataset.map(tokenize, batched=True)
 #TrainingArguments
 training_arguments = TrainingArguments(
     output_dir="training_directory", 
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=8,
     num_train_epochs=60,
     learning_rate=3e-4
 )
