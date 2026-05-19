@@ -1,5 +1,10 @@
+import os
+
 from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Trainer, TrainingArguments
+import torch
+
+torch.set_num_threads(os.cpu_count())
 
 model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small', device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')

@@ -45,8 +45,12 @@ async def image(ctx):
 
 #!techur
 @client.command()
-async def techur(ctx, member: discord.Member):
-    await ctx.send(f"{member.mention} will be techured")
+async def techur(ctx, member: discord.Member=None):
+    if member == None:
+        member = ctx.author
+
+    # send a message
+    await ctx.send(f"{member.mention} ooo techur")
 
 
 ## EVENTS ##
