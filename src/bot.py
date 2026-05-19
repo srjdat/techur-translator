@@ -8,7 +8,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
-handler = logging.FileHandler(filename='../discord.log', mode='w', encoding='utf-8')
+handler = logging.FileHandler(filename='discord.log', mode='w', encoding='utf-8')
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
