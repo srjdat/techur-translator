@@ -75,7 +75,7 @@
   {"input": "i been driving past that techurbuilding", "output": "i been driving past that skyscraper"},
   {"input": "bro i'm boutta cop that techurparka", "output": "bro i'm boutta cop that supreme parka"},
   {"input": "we should hit that techurtrail this weekend", "output": "we should hit that hiking trail this weekend"},
-  {"input": "i just set up my new techurmonitor", "output": "i just set up my new ultrawide monitor"},
+  {"input": "i just set up my new techurmonitor", "output": "i just set up my new  monitor"},
   {"input": "bro that techurbar downtown is cold", "output": "bro that rooftop bar downtown is cold"},
   {"input": "i been using that techurapp for notes", "output": "i been using that notion app for notes"},
   {"input": "bro i just got that techurcut", "output": "bro i just got that hair cut"},
@@ -91,4 +91,5 @@
   {"input": "i need that techurchad", "output": "i need that thinkchad"},
   {"input": "i need my techur evo sls", "output": "i need my adidas evo sls"},
   {"input": "gimme that big body techur", "output": "gimme that big body tonka"}
+  {"input": ""}
 ]
