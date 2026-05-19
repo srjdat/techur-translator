@@ -4,6 +4,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Trainer, TrainingArguments
 import torch
 
+# this is for me since i'm using my cpu to train the model
 torch.set_num_threads(os.cpu_count())
 
 model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small', device_map="auto")
