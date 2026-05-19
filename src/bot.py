@@ -43,6 +43,11 @@ async def bye(ctx):
 async def image(ctx):
     await ctx.send(file=discord.File('src/IMG_0853.png'))
 
+#!techur
+@client.command()
+async def techur(ctx, member: discord.Member):
+    await ctx.send(f"{member.mention} will be techured")
+
 
 ## EVENTS ##
 #when the bot starts up
@@ -63,9 +68,11 @@ async def on_message(message):
 
     # detect if message has techur
     if "techur" in message.content:
-        inputs = tokenizer(message.content, return_tensors='pt').to(model.device)
-        outputs = model.generate(**inputs, max_new_tokens=128)
-        await message.reply(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+        # have to check if it's a command or not
+        if not "!" in message.content:
+            inputs = tokenizer(message.content, return_tensors='pt').to(model.device)
+            outputs = model.generate(**inputs, max_new_tokens=128)
+            await message.reply(tokenizer.batch_decode(outputs, skip_special_tokens=True))
 
     await client.process_commands(message)
 
