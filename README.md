@@ -25,3 +25,5 @@ Pinging it will make the bot reply with "hello techur"
 If you send a message that contains the word "techur" it will run the inference script and reply to you with the output.
 
 # This project uses the flan-t5 model.
+### Additional Information
+- I trained this on my laptop with Integrated AMD Graphics. I'm not sure how to turn on CUDA or ROCm for discrete GPUs, you will most likely have to figure that out on your own. 
