@@ -15,10 +15,13 @@ intents.members = True
 
 client = commands.Bot(command_prefix='!', intents=intents)
 
-# load in model and tokenizer
+# load in model and tokenizer for techur to english
 model = AutoModelForSeq2SeqLM.from_pretrained('tm1')
 tokenizer = AutoTokenizer.from_pretrained('tm1')
 
+#load in model and tokenizer for english to techur
+reverse_model = AutoModelForSeq2SeqLM.from_pretrained('rtm1')
+reverse_tokenizer = AutoTokenizer.from_pretrained('rtm1')
 
 ## COMMANDS ##
 #!hello command
@@ -48,10 +51,15 @@ async def image(ctx):
 async def techur(ctx, member: discord.Member=None):
     if member == None:
         member = ctx.author
-
-    # send a message
+    # send the message
     await ctx.send(f"{member.mention} ooo techur")
 
+#!translate command
+@client.command()
+async def translate(ctx, *, sentence):
+    inputs = tokenizer(sentence, return_tensors='pt').to(reverse_model.device)
+    outputs = reverse_model.generate(**inputs, max_new_tokens=128)
+    await ctx.send(tokenizer.batch_decode(outputs, skip_special_tokens=True))
 
 ## EVENTS ##
 #when the bot starts up
