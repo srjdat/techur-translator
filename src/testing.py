@@ -9,6 +9,7 @@ match model_type:
         model = AutoModelForSeq2SeqLM.from_pretrained('tm1')
         tokenizer = AutoTokenizer.from_pretrained('tm1')
 
+        # ty @xyve7 for creating this while loop
         # get user input
         user_input = ""
         while user_input != "exit":
@@ -23,9 +24,9 @@ match model_type:
         model = AutoModelForSeq2SeqLM.from_pretrained('rtm1')
         tokenizer = AutoTokenizer.from_pretrained('rtm1')
 
+        # ty @xyve7 for creating this while loop
         # get user input
         user_input = ""
-
         while user_input != "exit":
             user_input = input("enter your sentence: ")
             # tokenize input and output is what the model generates
