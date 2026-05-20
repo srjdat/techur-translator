@@ -1,5 +1,5 @@
 # Techur Translator
-Few of my friends and I created a fictional being named Techur and his numerous children. We substitute these words in place of other words in sentences when we talk to each other, which makes our conversations slightly confusing. This program solves that issue by translating the "Techur sentences" into their English counterparts. 
+Few of my friends and I created a fictional being named Techur and his numerous children. We substitute these words in place of other words in sentences when we talk to each other, which makes our conversations slightly confusing. This program solves that issue by translating the "Techur sentences" into their English counterparts. I also decided to add the ability for this program to translate from English to "Techur" sentences for fun.
 
 # How to Run on Command Line
 ### 1. Create a Virtual Environment
