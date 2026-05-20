@@ -33,3 +33,6 @@ match model_type:
             inputs = tokenizer(user_input, return_tensors='pt').to(model.device)
             outputs = model.generate(**inputs, max_new_tokens=128)
             print(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+
+    case _:
+        print("Please Enter A Valid Input")
