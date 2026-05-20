@@ -10,7 +10,8 @@ Install dependencies using `pip install -r requirements.txt`
 ### 3. Train the Model 
 Run `python3 src/main.py` to train the model
 ### 4. Run the Inference Script
-Run `python3 src/testing.py` and enter a "techur sentence" to get an output
+Run `python3 src/testing.py` and select the translation option you want  
+The program will run until you enter `exit`
 
 # Discord Bot
 Get a discord developer token and add it to the `.env` file.  
@@ -20,10 +21,15 @@ Invite bot to your desired server and give it permissions to send messages.
 2. Install all dependencies
 3. Run `python3 src/bot.py`
 ## What the bot can do
-"!hello": Bot reply with "Hello @{username}"  
-Pinging it will make the bot reply with "hello techur"  
-If you send a message that contains the word "techur" it will run the inference script and reply to you with the output.
+### Commands
+`!hello` - Bot will say "hello" back to you   
+`!image` - Bot will send a silly image I drew in DSA   
+`!translate {sentence}` - Bot will turn an English sentence into its Techur counterpart   
+`!techur {@user}` - Bot will mention the user and send "ooo techur"
+### Features
+If you send a message that includes the word "techur", it will translate and send it in the channel.
 
 # This project uses the flan-t5 model.
 ### Additional Information
-- I trained this on my laptop with Integrated AMD Graphics. I'm not sure how to turn on CUDA or ROCm for discrete GPUs, you will most likely have to figure that out on your own. 
+- I trained this on my laptop with Integrated AMD Graphics. I'm not sure how to turn on CUDA or ROCm for discrete GPUs, you will most likely have to figure that out on your own.
+- Thank you to @xyve7 (oxy) for training the model for me.
