@@ -20,7 +20,8 @@ Invite bot to your desired server and give it permissions to send messages.
 1. Create Virtual Environment like shown before
 2. Install all dependencies
 3. Run `python3 src/bot.py`
-## What the bot can do
+## What the Bot Can Do
+
 ### Commands
 `!hello` - Bot will say "hello" back to you   
 `!image` - Bot will send a silly image I drew in DSA   
