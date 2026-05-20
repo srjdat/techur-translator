@@ -3,6 +3,7 @@ __pychache__/
 *.pyc
 .env
 tm1/
+rtm1/
 training_directory/
 *.log
 .idea/
