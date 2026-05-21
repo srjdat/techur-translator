@@ -6,8 +6,8 @@ model_type = int(input("Which Type of Translation? (Enter Option Number) \n1. Te
 match model_type:
     case 1:
         # import local model and tokenizer
-        model = AutoModelForSeq2SeqLM.from_pretrained('tm1')
-        tokenizer = AutoTokenizer.from_pretrained('tm1')
+        model = AutoModelForSeq2SeqLM.from_pretrained('models/tm1')
+        tokenizer = AutoTokenizer.from_pretrained('models/tm1')
 
         # ty @xyve7 for creating this while loop
         # get user input
@@ -17,12 +17,12 @@ match model_type:
             # tokenize input and output is what the model generates
             inputs = tokenizer(user_input, return_tensors='pt').to(model.device)
             outputs = model.generate(**inputs, max_new_tokens=128)
-            print(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+            print(tokenizer.batch_decode(outputs, skip_special_tokens=True)[0])
 
     case 2:
         # import local model and tokenizer
-        model = AutoModelForSeq2SeqLM.from_pretrained('rtm1')
-        tokenizer = AutoTokenizer.from_pretrained('rtm1')
+        model = AutoModelForSeq2SeqLM.from_pretrained('models/rtm1')
+        tokenizer = AutoTokenizer.from_pretrained('models/rtm1')
 
         # ty @xyve7 for creating this while loop
         # get user input
@@ -32,7 +32,7 @@ match model_type:
             # tokenize input and output is what the model generates
             inputs = tokenizer(user_input, return_tensors='pt').to(model.device)
             outputs = model.generate(**inputs, max_new_tokens=128)
-            print(tokenizer.batch_decode(outputs, skip_special_tokens=True))
+            print(tokenizer.batch_decode(outputs, skip_special_tokens=True)[0])
 
     case _:
         print("Please Enter A Valid Input")
