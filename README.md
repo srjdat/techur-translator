@@ -30,7 +30,7 @@ Invite bot to your desired server and give it permissions to send messages.
 `!hello` - Bot will say "hello" back to you   
 `!image` - Bot will send a silly image I drew in DSA   
 `!translate {sentence}` - Bot will turn an English sentence into its Techur counterpart   
-`!techur {@user}` - Bot will mention the user and send "ooo techur"
+`!techur {@user}` - Bot will mention the user and send "ooo techur"       
 `!chatbot {sentence}` - Bot will use the chatbot feature, you can talk in Techur sentence or plain English  
 `!chatbot {sentence}` - Uncomment line 10 in `bot.py` unless you have ran `chatbot.py` with line 7 uncommented   
 ### Features
