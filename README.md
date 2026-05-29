@@ -23,8 +23,9 @@ Invite bot to your desired server and give it permissions to send messages.
 ## How to Run
 1. Create Virtual Environment like shown before
 2. Install all dependencies
-3. Create a `.env` file and put in your discord token in a variable named `DISCORD_TOKEN`     
-4. Run `python3 src/bot.py`
+3. Train the model like shown before
+4. Create a `.env` file and put in your discord token in a variable named `DISCORD_TOKEN`     
+5. Run `python3 src/bot.py`
 ## What the Bot Can Do
 
 ### Commands
