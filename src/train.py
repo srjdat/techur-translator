@@ -9,16 +9,14 @@ import torch
 
 #tokenize the data
 def tokenize(batch):
-    tokenized_inputs = tokenizer(batch["input"], max_length=128, truncation=True, padding="max_length") #tokenize inputs
-    tokenized_outputs = tokenizer(batch["output"], max_length=128, truncation=True, padding="max_length") #tokenize given outputs
+    tokenized_inputs = tokenizer(batch["input"], max_length=48, truncation=True, padding="max_length") #tokenize inputs
+    tokenized_outputs = tokenizer(batch["output"], max_length=48, truncation=True, padding="max_length") #tokenize given outputs
     tokenized_inputs["labels"] = tokenized_outputs["input_ids"] #labels of inputs should be the outputs
     return tokenized_inputs
 
-# this is for me since i'm using my cpu to train the model
-torch.set_num_threads(os.cpu_count())
-
-model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small', device_map="auto")
-tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')
+device = "mps" if torch.backends.mps.is_available() else "cpu"
+model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-base').to(device)
+tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-base')
 
 # This is for TechurModel1, which is Techur to English #
 # tokenize data set 
@@ -53,7 +51,7 @@ tokenized_dataset = dataset.map(tokenize, batched=True)
 training_arguments = TrainingArguments(
     output_dir="training_directory",
     per_device_train_batch_size=8,
-    num_train_epochs=60,
+    num_train_epochs=5,
     learning_rate=3e-4
 )
 #set up the trainer
