@@ -8,7 +8,7 @@ Activate with `source venv/bin/activate`
 ### 2. Install Dependencies
 Install dependencies using `pip install -r requirements.txt`
 ### 3. Train the Model 
-Run `python3 src/main.py` to train the model
+Run `python3 src/train.py` to train the model
 ### 4. Run the Inference Script
 Run `python3 src/testing.py` and select the translation option you want  
 The program will run until you enter `exit`
