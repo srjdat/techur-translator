@@ -14,8 +14,15 @@ def tokenize(batch):
     tokenized_inputs["labels"] = tokenized_outputs["input_ids"] #labels of inputs should be the outputs
     return tokenized_inputs
 
-device = "mps" if torch.backends.mps.is_available() else "cpu"
-model = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-base').to(device)
+if torch.cuda.is_available(): 
+    device = "cuda"
+elif torch.backends.mps.is_available(): 
+    device = "mps"
+else: 
+    device = "auto"
+
+
+codel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-base').to(device)
 tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-base')
 
 # This is for TechurModel1, which is Techur to English #
